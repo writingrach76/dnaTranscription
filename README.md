@@ -1,0 +1,5 @@
+A final project for our Principles of Programming Languages course, where we were asked to implement any project with a scanner and parser. 
+
+This project takes an input file of DNA strands on each line of the file,
+converts the DNA to mRNA, and then scans the strand of mRNA checking in groups of three for the start codon "AUG" which would be the DNA replication indicator to start translating DNA. Our program uses this location to then find all the codons that appear after the start codon.
+After finding the start codon it checks for a stop codon, and if one exists it will only translate between the start and stop codon. If no stop codon exists then the program will translate amino acids until the end of the DNA strand. Once the start and possible stop locations are found the codons are translated into their corresponding Amino Acids and printed to the console. 
